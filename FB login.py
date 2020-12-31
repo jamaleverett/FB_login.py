@@ -8,7 +8,7 @@ driver = webdriver.Chrome() #driver = browser
 driver.get ("https://facebook.com")
 
 element = driver.find_element_by_id("email") #will scrape by email element
-element.send_keys(user_name)
+element.send_keys(user_name) #browser will enter username variable ^ 
 
 element = driver.find_element_by_id("pass") #if email element found = pass 
 element.send_keys(password) #browser will input your password
