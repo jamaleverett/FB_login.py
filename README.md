@@ -1,2 +1,2 @@
 # FB_login.py
-Python Script which automates the login process through Selenium
+Python script which automates the login process for FB through Selenium
